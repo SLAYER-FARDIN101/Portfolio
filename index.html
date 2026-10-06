@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ishayat Fardin | Personal Page</title>
+<style>
+  :root {
+    --bg: #f3f6f4;
+    --ink: #14282b;
+    --muted: #4b6064;
+    --accent: #0e6e6e;
+    --line: #c9d6d3;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1c1e;
+      --ink: #e6f0ee;
+      --muted: #9db3b0;
+      --accent: #5fc4bd;
+      --line: #264043;
+      --card: #162729;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  h1 { font-size: 2.6rem; line-height: 1.15; margin: 0 0 8px; }
+  h2 { font-size: 1.35rem; margin: 40px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--line); }
+  p { margin: 0 0 14px; }
+  .sub { color: var(--muted); font-size: 1.1rem; }
+  .photo {
+    width: 140px; height: 140px; border-radius: 50%;
+    object-fit: cover; border: 3px solid var(--accent);
+    margin-bottom: 20px;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+  .skills li {
+    background: var(--card); border: 1px solid var(--line);
+    padding: 4px 14px; border-radius: 999px; margin: 0;
+    font-family: system-ui, sans-serif; font-size: 0.9rem;
+  }
+  a { color: var(--accent); font-weight: bold; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <!-- Replace the src below with your GitHub picture link -->
+  <img class="photo" src="https://github.com/SLAYER-FARDIN101.png" alt="Portrait of Ishayat Fardin">
+
+  <h1>Ishayat Fardin</h1>
+  <p class="sub">Aspiring web developer based in Malaysia</p>
+
+  <h2>About me</h2>
+  <p>
+    I am learning to code and building projects one step at a time. I enjoy
+    turning ideas into working pages, learning from mistakes, and trying new
+    approaches until something works.
+  </p>
+
+  <h2>What I am learning</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Git and GitHub</li>
+  </ul>
+
+  <h2>Goals</h2>
+  <ul>
+    <li>Finish the freeCodeCamp Responsive Web Design certification</li>
+    <li>Build and publish a new project every month</li>
+    <li>Keep adding certificates and skills to my profile</li>
+  </ul>
+
+  <h2>Find me online</h2>
+  <p>
+    <a href="https://github.com/SLAYER-FARDIN101">GitHub profile</a>
+  </p>
+
+  <footer>Built with HTML and CSS as my first portfolio project.</footer>
+</main>
+</body>
+</html>
